@@ -114,7 +114,7 @@ void clear_screen() {
 
 void delay() {
     volatile unsigned delay_var = 0;
-    for (int i = 0; i < GAME_SPEED; ++i, ++delay_var);
+    for (zint i = 0; i < GAME_SPEED; ++i, ++delay_var);
 }
 
 void init_game(Snake *snake) {
